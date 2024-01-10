@@ -1,38 +1,140 @@
-.App {
+#desktop {
+
+}
+
+#hero {
+  gap : 50px;
+  padding: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#rows {
+  width: 380px;
+  gap: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.colums {
+  gap: 50px;
+  display: flex;
+
+  align-items: center;
+}
+
+.colums_reverse {
+  gap: 50px;
+  display: flex;
+
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  gap: 20px;
+
+  text-align: left;
+  color: #001122;
+}
+
+h1 {
+  color: #001122;
+  font-size: 72px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #001122;
+  margin: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  color: #888888;
+  font-size: 24px;
+  overflow: visible;
+  font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#button {
+  height: 36px;
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #222222;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  box-shadow: 0px 30px 80px 10px rgba(0, 0, 0, 0.25);
+}
+
+#logos {
+  gap: 60px;
+  padding: 20px 40px 100px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#wrap {
+  display: flex;
+  width: 1000px;
+  gap: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  display: flex;
+  color: #999999;
+  font-size: 40px;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px;
+  background-color: #f7f7f7;
+}
+
+#faq {
+  gap: 60px;
+  padding: 100px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.accordion {
+  width: 1000px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+
+  padding: 0 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: flex;
+  color: #001122;
+  gap: 24px;
+  padding: 20px 0px;
 }
